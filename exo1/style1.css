@@ -1,0 +1,50 @@
+*{
+    font-family: system-ui;
+    font-size: 14px;
+    line-height: 20px ;
+}
+body{
+    background-color:#eee;
+}
+    img{
+    width :100%;
+    height: auto;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:20px;  
+}
+.box_item{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius:20;
+    background-color: white;
+}
+.box_item_img{
+    height:200px ;
+    overflow: hidden ;
+    border-radius: 10px;
+}
+.box_item_img img{
+    height: 100%;
+    object-fit: cover;
+}
+.box_item_title{
+    font-size: 20px;
+}
+.box_item_text{
+    background-color: hsl(0, 42%, 91%);
+}
+.box_item_action{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.box_item_action button{
+    border: none;
+    padding: 8px 25px;
+    border-radius: 20px;
+}
